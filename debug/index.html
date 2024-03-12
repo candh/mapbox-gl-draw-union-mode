@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Union Mode</title>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+    <script src="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.3/mapbox-gl-draw.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-draw/v1.4.3/mapbox-gl-draw.css"
+      type="text/css"
+    />
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        width: 100%;
+      }
+
+      #unionModeBtn {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        z-index: 1;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div id="map"></div>
+    <button id="unionModeBtn">Union</button>
+    <script src="./bundle.js"></script>
+  </body>
+</html>
