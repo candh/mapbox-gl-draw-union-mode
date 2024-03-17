@@ -2,9 +2,9 @@
   "name": "mapbox-gl-draw-union-mode",
   "version": "1.0.0",
   "description": "Combines selected Polygons into a single Polygon",
-  "main": "./src/index.js",
   "module": "./src/index.js",
   "browser": "./dist/index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch-debug": "webpack --watch --config webpack.debug.config.js",
