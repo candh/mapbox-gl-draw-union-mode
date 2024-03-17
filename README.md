@@ -4,7 +4,7 @@ Simple custom mode for `mapbox-gl-draw` that combines selected
 Polygons into a single Polygon.
 
 <p align="center">
-    <img src="demo.gif" width=400px>
+    <img src="https://raw.githubusercontent.com/candh/mapbox-gl-draw-union-mode/master/demo.gif" width=400px>
 </p>
 
 ### Installation
