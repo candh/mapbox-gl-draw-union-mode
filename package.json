@@ -2,11 +2,14 @@
   "name": "mapbox-gl-draw-union-mode",
   "version": "1.0.0",
   "description": "Combines selected Polygons into a single Polygon",
-  "main": "index.js",
+  "main": "./src/index.js",
+  "module": "./src/index.js",
+  "browser": "./dist/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "webpack --watch",
-    "build": "webpack"
+    "watch-debug": "webpack --watch --config webpack.debug.config.js",
+    "build-debug": "webpack --config webpack.debug.config.js",
+    "build-dist": "webpack --config webpack.dist.config.js"
   },
   "author": "candh",
   "license": "MIT",
@@ -17,5 +20,14 @@
   "devDependencies": {
     "webpack": "^5.90.3",
     "webpack-cli": "^5.1.4"
-  }
+  },
+  "keywords": [
+    "mapbox-gl",
+    "mapbox-gl-draw",
+    "mapbox-gl-draw-union-mode",
+    "union",
+    "merge",
+    "combine",
+    "polygons"
+  ]
 }
