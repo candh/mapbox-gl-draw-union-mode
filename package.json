@@ -1,6 +1,6 @@
 {
   "name": "mapbox-gl-draw-union-mode",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combines selected Polygons into a single Polygon",
   "module": "./src/index.js",
   "browser": "./dist/index.js",
