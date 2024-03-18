@@ -9,7 +9,20 @@ Polygons into a single Polygon.
 
 ### Installation
 
-TODO: publish to npm & cdn
+#### Browser
+
+Include the script in your HTML file
+```
+<script src="https://unpkg.com/mapbox-gl-draw-union-mode@1.0.1/dist/index.js"></script>
+```
+
+A `UnionMode` global variable will be available for you to use. See [Usage](#usage) for more details.
+
+#### npm
+
+```
+npm install mapbox-gl-draw-union-mode
+```
 
 ### Usage
 
